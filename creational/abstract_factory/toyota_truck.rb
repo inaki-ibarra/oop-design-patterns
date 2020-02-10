@@ -1,9 +1,11 @@
 require_relative 'truck'
 
-class ToyotaTruck
-  include Truck
+module AbstractFactory
+  class ToyotaTruck
+    include Truck
 
-  def start
-    puts 'Start a Toyota truck'
+    def start
+      puts 'Start a Toyota truck'
+    end
   end
 end

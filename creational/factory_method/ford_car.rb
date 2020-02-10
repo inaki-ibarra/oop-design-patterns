@@ -1,13 +1,15 @@
 require_relative 'car'
 
-class FordCar
-  include Car
+module FactoryMethod
+  class FordCar
+    include Car
 
-  def drive
-    puts 'Drive with Ford car'
-  end
+    def drive
+      puts 'Drive with Ford car'
+    end
 
-  def finish
-    puts 'Finish with Ford car'
+    def finish
+      puts 'Finish with Ford car'
+    end
   end
 end
