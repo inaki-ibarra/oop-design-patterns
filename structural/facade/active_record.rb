@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Facade
   class ActiveRecord
     def self.execute(sql)

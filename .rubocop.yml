@@ -1,0 +1,24 @@
+Documentation:
+  Enabled: false
+
+Layout/EndOfLine:
+  EnforcedStyle: lf
+
+Layout/LineLength:
+  IgnoredPatterns: ['(\A|\s)#']
+  Max: 90
+
+Metrics/MethodLength:
+  CountComments: false
+  Max: 15
+
+Metrics/ModuleLength:
+  Exclude:
+    - "**/*_spec.rb"
+
+Metrics/BlockLength:
+  Exclude:
+    - "**/*_spec.rb"
+
+Style/Alias:
+  EnforcedStyle: prefer_alias_method

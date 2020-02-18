@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require './behavioral/chain_of_responsibility/app'
 
 RSpec.describe ChainOfResponsibility::App do

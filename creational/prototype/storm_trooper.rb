@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative 'robot'
 
 module Prototype
@@ -5,13 +7,9 @@ module Prototype
     attr_accessor :str, :agi, :int, :memory
 
     def initialize(source = nil)
-      if source
-        super(source)
-      end
-    end
+      @memory = { past: nil }
 
-    def memory
-      { past: nil }
+      super(source) if source
     end
 
     def clone

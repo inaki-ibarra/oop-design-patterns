@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require './behavioral/mediator/app'
 
 RSpec.describe Mediator::App do

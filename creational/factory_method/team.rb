@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module FactoryMethod
   class Team
     def race

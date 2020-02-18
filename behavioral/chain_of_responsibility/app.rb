@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative 'authorization'
 require_relative 'authentication'
 require_relative 'validation'
@@ -12,7 +14,7 @@ module ChainOfResponsibility
       authentication.next = authorization
       authorization.next = validation
 
-      authentication.handle({ payload: '' })
+      authentication.handle(payload: '')
     end
   end
 end

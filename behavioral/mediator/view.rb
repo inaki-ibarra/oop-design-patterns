@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Mediator
   class View
     def initialize(controller)

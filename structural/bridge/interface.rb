@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Bridge
   class Interface
     def initialize(program)
@@ -19,8 +21,6 @@ module Bridge
 
     protected
 
-    def program
-      @program
-    end
+    attr_reader :program
   end
 end

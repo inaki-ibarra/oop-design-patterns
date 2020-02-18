@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Memento
   class Backup
     attr_reader :text, :index

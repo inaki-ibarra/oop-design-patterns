@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Adapter
   class Blaster
     def initialize(energy_needed)

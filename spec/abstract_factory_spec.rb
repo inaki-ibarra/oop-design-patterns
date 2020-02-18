@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require './creational/abstract_factory/app'
 
 RSpec.describe AbstractFactory::App do
@@ -6,7 +8,7 @@ RSpec.describe AbstractFactory::App do
       it 'raises error when factory is missing' do
         expect do
           described_class.new.main(nil)
-        end.to raise_error("missing factory")
+        end.to raise_error('missing factory')
       end
     end
 
@@ -25,6 +27,5 @@ RSpec.describe AbstractFactory::App do
         end.to output("Start a Toyota car\nStart a Toyota truck\n").to_stdout
       end
     end
-
   end
 end

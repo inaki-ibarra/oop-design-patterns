@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Bridge
   module Program
     attr_reader :running

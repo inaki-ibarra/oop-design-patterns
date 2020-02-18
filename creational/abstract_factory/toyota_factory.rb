@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative 'factory'
 require_relative 'toyota_car'
 require_relative 'toyota_truck'

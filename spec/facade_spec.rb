@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require './structural/facade/app'
 
 RSpec.describe Facade::App do

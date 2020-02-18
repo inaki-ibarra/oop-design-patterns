@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require './structural/decorator/app'
 
 RSpec.describe Decorator::App do

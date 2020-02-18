@@ -1,8 +1,10 @@
+# frozen_string_literal: true
+
 module Singleton
   class JediCouncil
     private_class_method :new
 
-    def self.get_instance
+    def self.instance
       if @instance.nil?
         @instance = new
       else

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative 'collection'
 
 module Iterator
@@ -14,7 +16,7 @@ module Iterator
       end
 
       collection.content.length.times do
-        print iterator.get_next
+        print iterator.next
       end
     end
   end

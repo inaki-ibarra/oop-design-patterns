@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require './behavioral/observer/app'
 
 RSpec.describe Observer::App do

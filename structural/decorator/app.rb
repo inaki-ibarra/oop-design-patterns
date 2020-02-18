@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative 'notifier'
 require_relative 'push_decorator'
 require_relative 'sms_decorator'

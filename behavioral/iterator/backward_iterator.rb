@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Iterator
   class BackwardIterator
     def initialize(collection)
@@ -5,8 +7,8 @@ module Iterator
       @position = collection.content.size
     end
 
-    def get_next
-      @position = @position - 1
+    def next
+      @position -= 1
       @collection.content[@position]
     end
   end

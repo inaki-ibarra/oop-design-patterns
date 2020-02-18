@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module State
   class Website
     attr_reader :state

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require './structural/bridge/app'
 
 RSpec.describe Bridge::App do

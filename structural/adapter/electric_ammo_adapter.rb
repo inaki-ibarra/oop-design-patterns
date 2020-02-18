@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Adapter
   class ElectricAmmoAdapter
     attr_reader :energy

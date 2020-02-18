@@ -1,8 +1,10 @@
+# frozen_string_literal: true
+
 require_relative 'backup'
 
 module Memento
   class File
-    attr_accessor :text
+    attr_reader :text
     attr_reader :backups
 
     def initialize

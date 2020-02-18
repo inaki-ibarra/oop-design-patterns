@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require './behavioral/command/app'
 
 RSpec.describe Command::App do

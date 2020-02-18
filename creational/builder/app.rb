@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative 'car_builder'
 require_relative 'truck_builder'
 require_relative 'director'

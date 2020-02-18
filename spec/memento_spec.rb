@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require './behavioral/memento/app'
 
 RSpec.describe Memento::App do

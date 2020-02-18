@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require './behavioral/state/app'
 
 RSpec.describe State::App do

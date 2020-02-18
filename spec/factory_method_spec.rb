@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require './creational/factory_method/app'
 
 RSpec.describe FactoryMethod::App do
@@ -6,7 +8,7 @@ RSpec.describe FactoryMethod::App do
       it 'raises error when create_car is not implemented' do
         expect do
           described_class.new.main(nil)
-        end.to raise_error("not implemented")
+        end.to raise_error('not implemented')
       end
     end
 
@@ -25,7 +27,5 @@ RSpec.describe FactoryMethod::App do
         end.to output("Drive with Ford car\nFinish with Ford car\n").to_stdout
       end
     end
-
   end
 end
-

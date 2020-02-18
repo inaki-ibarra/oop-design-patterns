@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Mediator
   class Controller
     def initialize
@@ -13,7 +15,7 @@ module Mediator
     end
 
     def send_action(action)
-      self.send(action)
+      send(action)
     end
 
     protected
@@ -27,5 +29,4 @@ module Mediator
       @login_modal.remove
     end
   end
-
 end

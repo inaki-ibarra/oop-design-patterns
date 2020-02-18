@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Observer
   class UserComponent
     def update(model)
@@ -5,10 +7,10 @@ module Observer
     end
 
     def render(model)
-      if model
-        puts "receive model: #{model.class}"
-        puts "render user profile"
-      end
+      return unless model
+
+      puts "receive model: #{model.class}"
+      puts 'render user profile'
     end
   end
 end

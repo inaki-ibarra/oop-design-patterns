@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require './creational/singleton/app'
 
 RSpec.describe Singleton::App do

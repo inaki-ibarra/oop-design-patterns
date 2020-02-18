@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative 'forward_iterator'
 require_relative 'backward_iterator'
 

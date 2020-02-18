@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require './creational/builder/app'
 
 RSpec.describe Builder::App do

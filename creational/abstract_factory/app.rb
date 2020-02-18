@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative 'honda_factory'
 require_relative 'toyota_factory'
 
@@ -6,9 +8,9 @@ module AbstractFactory
     def main(preference)
       factory = nil
 
-      if (preference == 'Honda')
+      if preference == 'Honda'
         factory = HondaFactory.new
-      elsif (preference == 'Toyota')
+      elsif preference == 'Toyota'
         factory = ToyotaFactory.new
       else
         raise 'missing factory'

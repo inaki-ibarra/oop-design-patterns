@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative 'blaster'
 require_relative 'plasma_ammo'
 require_relative 'electric_ammo'

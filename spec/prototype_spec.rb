@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require './creational/prototype/app'
 
 RSpec.describe Prototype::App do
